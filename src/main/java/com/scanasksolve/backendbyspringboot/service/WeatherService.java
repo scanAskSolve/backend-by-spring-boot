@@ -9,7 +9,7 @@ import javax.annotation.PostConstruct;
 
 @Service
 @Slf4j
-public class Weather {
+public class WeatherService {
 
     @Value("${api_weather}")
     private String weatherApi;
