@@ -46,7 +46,7 @@ public class WeatherController {
         return weatherVo;
     }
 
-    @PutMapping("/{location}")
+    @DeleteMapping("/{location}")
     @ResponseBody
     public WeatherVo deleteLocation(@PathVariable(value = "location") String location) {
         // TODO: 2022/9/14 刪除至db 
